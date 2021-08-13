@@ -1,0 +1,25 @@
+git init
+git add *
+git commit -m "..."
+git push - empurrar
+git push --repo ... = atalho do repositório -- Subir arquivo pra um repo específico
+git pull - puxar
+git clone
+
+git remote add "nome escolhido pra o atalho do repositorio sem aspas" endereço do mesmo.
+git remote -v
+git remove remove ... = nome do atalho
+
+git status
+
+git config --global user.name
+git config --global user.email
+
+
+Cria o repositorio, logo após pegar o link.
+
+Subir arquivo com uma nova branch git push --set-upstream "nome do repositorio" "nome da branch
+a ser adicionada" = sem aspas
+
+git delete branch - Para deletar é só escolher.
+git create branch - Para adicionar.
