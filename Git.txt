@@ -1,10 +1,18 @@
+By W3SFX
+
 git init
 git add *
 git commit -m "..."
 git push - empurrar
 git push --repo ... = atalho do repositório -- Subir arquivo pra um repo específico
+git push -u "nome do atalho" "nome da branch" (sem as aspas), git push -u origin master - quando der push na 1ª vez
 git pull - puxar
 git clone
+git flow init - inicia um repositório, com as branches em questão.
+git flow feature start "nome dela sem aspas" - cria uma nova branch relacionada a feature.
+git flow feature finish "nome" ao finalizar o processo, ele irá fazer uma merge na develop, apagando a branch feature.
+git flow release start 0.1.0 - cria uma nova branch relacionada a release(versão).
+git flow release finish 0.1.0 - ao finalizar o processo, ele irá fazer uma merge na develop.  (esc, :wq! - finalizar)
 
 git remote add "nome escolhido pra o atalho do repositorio sem aspas" endereço do mesmo.
 git remote -v
