@@ -12,7 +12,7 @@ git flow init - inicia um repositório, com as branches em questão.
 git flow feature start "nome dela sem aspas" - cria uma nova branch relacionada a feature.
 git flow feature finish "nome" ao finalizar o processo, ele irá fazer uma merge na develop, apagando a branch feature.
 git flow release start 0.1.0 - cria uma nova branch relacionada a release(versão).
-git flow release finish 0.1.0 - ao finalizar o processo, ele irá fazer uma merge na develop.  (esc, :wq! - finalizar)
+git flow release finish 0.1.0 - ao finalizar o processo, ele irá fazer uma merge na develop.  (esc, :wq! - finalizar).
 
 git remote add "nome escolhido pra o atalho do repositorio sem aspas" endereço do mesmo.
 git remote -v
